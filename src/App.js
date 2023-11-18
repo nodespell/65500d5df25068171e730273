@@ -4,7 +4,9 @@ import { createBrowserRouter, RouterProvider, Routes, Route, Link, Outlet } from
 const router = createBrowserRouter([{ path: "*", Component: Root }]);
 
 function Root() {
-  return 
+  return <div className="bg-lime-600">
+  Test site 1: main
+</div>
 }
 
 export default function App() {
