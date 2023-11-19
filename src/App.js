@@ -4,8 +4,8 @@ import { createBrowserRouter, RouterProvider, Routes, Route, Link, Outlet } from
 const router = createBrowserRouter([{ path: "*", Component: Root }]);
 
 function Root() {
-  return <div className="bg-lime-600">
-  Test site 1: main
+  return <div className="bg-amber-600 w-full h-[100vh]">
+  Deployed to main branch
 </div>
 }
 
