@@ -5,27 +5,19 @@ const router = createBrowserRouter([{ path: "*", Component: Root }]);
 
 function Root() {
   return <div className="bg-amber-600 w-full h-[100vh] whitespace-pre-wrap">
-  Deep into that darkness peering,
+  Once upon a midnight dreary, while I pondered, weak and weary,
+  Over many a quaint and curious volume of forgotten lore—
+      While I nodded, nearly napping, suddenly there came a tapping,
+  As of some one gently rapping, rapping at my chamber door.
+  “’Tis some visitor,” I muttered, “tapping at my chamber door—
+              Only this and nothing more.”
   
-  Long I stood there, wondering, fearing,
-  
-  Doubting, dreaming dreams no mortals
-  
-  Ever dared to dream before;
-  
-  But the silence was unbroken,
-  
-  And the stillness gave no token,
-  
-  And the only word there spoken
-  
-  Was the whispered word, "Lenore!"
-  
-  This I whispered, and an echo
-  
-  Murmured back the word, "Lenore!"
-  
-  Merely this, and nothing more.
+      Ah, distinctly I remember it was in the bleak December;
+  And each separate dying ember wrought its ghost upon the floor.
+      Eagerly I wished the morrow;—vainly I had sought to borrow
+      From my books surcease of sorrow—sorrow for the lost Lenore—
+  For the rare and radiant maiden whom the angels name Lenore—
+              Nameless here for evermore.
 </div>
 }
 
